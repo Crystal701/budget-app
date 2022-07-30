@@ -42,7 +42,7 @@
                 });
             } else if (buttonName === "edit expense") {
                 const updatedData = $expenses.map((item) => {
-                    return item.id === id
+                    return item.id === Number(id)
                         ? { ...item, title, amount }
                         : { ...item };
                 });

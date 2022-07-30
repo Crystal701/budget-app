@@ -26,9 +26,9 @@
         hidden = false;
 
         const expense = $expenses.find((item) => item.id === identifier);
-        id = expense.id;
-        title = expense.title;
-        amount = expense.amount;
+        id = expense?.id;
+        title = expense?.title;
+        amount = expense?.amount;
     };
 </script>
 
