@@ -44,10 +44,10 @@
 
 {#key deleteExpense}
     <div
-        class="bg-slate-100 text-slate-800 w-full min-h-full h-fit flex flex-col items-center rounded-t-3xl pb-10"
+        class="bg-slate-100 text-slate-800 w-full h-full flex flex-col justify-between items-center rounded-t-3xl pb-10"
     >
         <div
-            class="w-full md:max-w-2xl flex flex-col gap-10 py-6 px-10 md:px-0"
+            class="w-full md:max-w-2xl h-full flex flex-col gap-10 py-6 px-6 sm:px-10 md:px-0"
         >
             <h2 class="text-2xl pt-6">Expenses List</h2>
 

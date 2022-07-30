@@ -10,8 +10,8 @@
     on:click={() => (hidden = true)}
 />
 
-<header class="w-screen flex justify-center py-6 px-10">
-    <nav class="flex justify-between items-center w-full md:max-w-2xl">
+<header class="w-screen flex justify-center py-6 px-6 sm:px-10">
+    <nav class="flex items-center justify-between w-full md:max-w-2xl gap-2">
         <h1 class="text-slate-100 font-semibold">Budget Calculator</h1>
         <button
             class="text-sm border-0 rounded-full bg-slate-100 py-2 px-4 flex items-center gap-2 text-slate-800 hover:transform hover:scale-105 transition duration-500"
