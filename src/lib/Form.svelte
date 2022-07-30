@@ -70,7 +70,7 @@
     >
         <form
             class="w-full max-w-2xl bg-slate-100 border-0 rounded-md p-14 flex flex-col justify-between gap-6 relative"
-            in:fly={{ y: 50, duration: 300, delay: 300 }}
+            in:fly={{ y: 100, duration: 300, delay: 300 }}
             on:submit|preventDefault={handleExpense}
         >
             <div class="absolute top-6 right-6" on:click>

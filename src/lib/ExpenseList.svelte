@@ -55,7 +55,7 @@
                 <div
                     class="flex justify-between items-center shadow-md bg-white p-6 rounded-md"
                     animate:flip
-                    transition:fly={{ x: 50, duration: 300 }}
+                    transition:fly={{ x: 100, duration: 300 }}
                 >
                     <p>{title} <span>- ${amount}</span></p>
                     <div class="flex gap-2">
