@@ -5,6 +5,6 @@
 
 <Nav />
 
-<main class="h-screen min-h-screen flex flex-col items-center">
+<main class="h-screen flex flex-col items-center">
     <slot />
 </main>

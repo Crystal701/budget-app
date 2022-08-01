@@ -6,7 +6,7 @@
 </script>
 
 <h2
-    class="text-slate-100 text-2xl w-full md:max-w-2xl py-8 px-6 sm:px-10 md:px-0 mb-10"
+    class="sticky top-10 h-45 text-slate-100 text-2xl w-full md:max-w-2xl py-8 px-6 sm:px-10 md:px-0 mb-10"
 >
     Total Expenses: ${totalExpenses}
 </h2>
