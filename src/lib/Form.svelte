@@ -63,7 +63,7 @@
 
 {#key hidden}
     <div
-        class="fixed top-0 left-0 h-full w-screen bg-[rgba(0,0,0,0.6)] flex justify-center items-center p-4"
+        class="fixed top-0 left-0 h-full w-screen bg-[rgba(0,0,0,0.6)] flex justify-center items-center p-4 z-50"
         class:hidden
         in:fade={{ duration: 100 }}
         out:fade={{ duration: 300 }}
