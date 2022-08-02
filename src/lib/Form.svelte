@@ -38,7 +38,7 @@
             if (buttonName === "add expense") {
                 const newData = { id: Math.random(), title, amount };
                 expenses.update((currentData) => {
-                    return [...currentData, newData];
+                    return [newData, ...currentData];
                 });
             } else if (buttonName === "edit expense") {
                 const updatedData = $expenses.map((item) => {
